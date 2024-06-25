@@ -14,7 +14,7 @@ import javafx.scene.media.*;
 
 public class BigDot extends sDot {
 
-    private final Sound sound = new Sound("C:/Users/alexa/OneDrive/Dokumenter/JAVA/PacMan/pacman_intermission.wav");
+    private final Sound sound = new Sound("pacman_intermission.wav");
 
     public static Image dott1;
 

@@ -18,7 +18,7 @@ public class Sound {
             mediaPlayer.setCycleCount(MediaPlayer.INDEFINITE);
 
         } catch (MediaException e) {
-            System.out.println("feil i å lage lyden: " + e.getMessage());
+            System.out.println("Wrong in the making of the sound: " + e.getMessage());
             mediaPlayer = null;
         }
     }

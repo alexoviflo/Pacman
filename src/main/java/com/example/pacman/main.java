@@ -65,7 +65,7 @@ public class main extends Application {
     public static int x = 0;
 
 
-   public static Sound sound = new Sound("C:/Users/alexa/OneDrive/Dokumenter/JAVA/PacMan/chomp.wav");
+   public static Sound sound = new Sound("chomp.wav");
 
   public static   List<Node> nodes = scanMap(mapFilePath[x]);
 
@@ -264,7 +264,7 @@ public class main extends Application {
 
       } else{
           sound.stop();
-          sound = new Sound("C:/Users/alexa/OneDrive/Dokumenter/JAVA/PacMan/gameover.wav");
+          sound = new Sound("gameover.wav");
           isRunning = false;
           group.getChildren().add(overLabel);
 
